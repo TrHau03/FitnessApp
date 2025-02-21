@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CardFitness: View {
+struct FitnessCard: View {
     var body: some View {
         HStack{
             VStack(spacing: 8){
@@ -41,5 +41,5 @@ struct CardFitness: View {
 }
 
 #Preview {
-    CardFitness()
+    FitnessCard()
 }
